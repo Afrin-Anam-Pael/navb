@@ -1,0 +1,361 @@
+/*
+
+Author Name:Afrin Anam Pael;
+Mail Address:afrinanampayel@gmail.com;
+website link:;
+
+*/
+
+
+/*
+
+=====index====
+1.header
+2.Fusce
+3.Facilisis
+4.Ante
+5.Blandit
+6.Placerat
+7.footer
+
+*/
+
+/*Global css*/
+body{
+font-family: 'Roboto Slab', serif;
+
+}
+
+h1{
+
+font-size:72px;
+font-weight: lighter;
+color:white;
+
+}
+
+h2{
+
+	color:#191b29;
+	font-size:25px;
+   margin-bottom: 40px;
+}
+
+h3{
+
+font-size:24px;
+color:#31353e;
+margin:10px 0px;
+}
+
+h6{
+
+font-size: ;
+color:white;
+letter-spacing: 2px;
+
+}
+
+p{
+
+font-size:12px;
+color:#7c7f86;
+padding:0px 20px;
+}
+
+.btn{
+
+padding:13px 38px;
+background-color:white;
+color:#4e5159;
+font-size:14px;
+border-radius: 35px;
+
+}
+
+.img-center{
+display:block;
+margin:0 auto;
+
+}
+
+/*Theme css*/
+
+/*header part start*/
+
+header{
+
+	
+}
+.navbar-toggler{
+
+	background-color:#1d0d0fd9;
+}
+
+
+.nav-head{
+background-color:#edeff1!important;
+padding:28px 0px;
+}
+
+.nav-link.js-scroll-trigger.active{
+
+background-color: #dd4b2b;
+padding: 8px 12px;
+border-radius: 30px;
+color:white!important;
+}
+
+.nav-link{
+
+color:#44484f!important;
+
+}
+
+/*header part end*/
+/*hero section start*/
+.hero{
+
+background: url(../img/bg1.png)no-repeat center top;
+background-size:cover;
+padding:60px 0px;
+text-align:center;
+}
+.hero-title{
+
+padding-top:400px;
+padding-bottom: 40px;
+
+}
+.s-service{
+
+padding: 40px 0px;
+
+}
+.s-service h3{
+color:white;
+}
+
+.s-service p{
+color:white;
+padding:5px 40px;
+
+}
+
+.btn1{
+
+padding:13px 38px;
+background-color:white;
+color:darkred;
+font-size:14px;
+border-radius: 35px;
+
+
+
+}
+/* hero section end*/
+/*news section start*/
+.news{
+   
+    padding:50px 38px ;
+	text-align:center;
+	background-color: #edeff1;
+}
+.new1{
+
+	padding:10px 10px;
+}
+
+/*news section end*/
+
+/*newsletter sectin start*/
+.newsletter{
+
+padding:70px 0px;
+text-align:center;
+background: url(../img/new.png)no-repeat center top;
+background-size:cover;
+}
+.newsletter h1{
+font-size: 25px;
+font-weight: bold;
+color:white;
+}
+.newsletter p{
+	color:white;
+	padding:10px 0px;
+}
+.form-control{
+
+color:white;
+background-color:#ffffff36 ;
+padding:24px 30px;
+border-color:white;
+border-radius:26px;
+height: 20px;
+width:40%;
+position: relative;
+border-color: white;
+display: block;
+margin: 0 auto;
+}
+.btn-light{
+
+background-color: white;
+color:darkred;
+border-radius: 26px;
+padding:18px 50px;
+position: absolute;
+top:-5%;
+right:30%;
+}
+
+/*newsletter section end*/
+/*bm section  start*/
+
+.bmi{
+
+margin-top: 60px;
+}
+.imgg{
+
+padding:20px 15px;
+}
+.btn-cstm{
+
+padding:13px 38px;
+background-color:#dd4b2b;
+color:white;
+font-size:14px;
+border-radius: 35px;
+margin-top:50px;
+
+}
+.btn-cstm1{
+
+padding:13px 38px;
+background-color:#4b4e73;
+color:white;
+font-size:14px;
+border-radius: 35px;
+margin-top:50px;
+	
+}
+/*bm section end*/
+/*place section start*/
+.place{
+
+padding: 75px 0px;
+background-color: #d75d0e;
+
+}
+.place1{
+padding: 40px 0px;
+text-align: center;
+color:white;
+
+}
+.place1 p{
+	color:white;
+}
+/*place section end*/
+/*footer part start*/
+footer{
+
+text-align: center;
+padding:70px 0px;
+text-align:center;
+background: url(../img/new.png)no-repeat center top;
+background-size:cover;
+}
+a{
+
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.fot p{
+
+	color:white;
+	margin-bottom: 150px;
+	margin-top: 40px;
+
+}
+.ovr{
+
+
+	background-color: #2b202036;
+}
+
+
+/*footer part end*/
+/*mobile divce*/
+@media(min-width: 0px) and (max-width: 500px){
+
+.hero-title{
+
+padding-top:100px;
+padding-bottom: 40px;
+
+}
+h1{
+
+font-size:30px;
+font-weight: lighter;
+color:white;
+}
+.s-service{
+
+padding: 15px 40px;
+
+}
+.form-control{
+
+color:white;
+background-color:#ffffff36 ;
+padding:24px 30px;
+border-color:white;
+border-radius:26px;
+height: 20px;
+width:60%;
+position: relative;
+border-color: white;
+display: block;
+margin: 0 auto;
+}
+.btn-light{
+
+background-color: white;
+color:darkred;
+border-radius: 26px;
+padding:18px 50px;
+position: absolute;
+top:-5%;
+right:10%;
+}
+.place1{
+padding: 15px 0px;
+text-align: center;
+color:white;
+line-height: 4px;
+}
+.place{
+
+padding: 40px 0px;
+background-color: #d75d0e;
+
+}
+@media(min-width: 500.01px) and (max-width: 768){
+
+
+
+}
+@media(min-width:768.01px) and (max-width: 1200px){
+
+
+}
+
+@media(min-width: 1200.01px){
+
+
+}
